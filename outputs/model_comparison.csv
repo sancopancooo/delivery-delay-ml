@@ -1,0 +1,7 @@
+﻿model,accuracy,roc_auc,precision_gecikme,recall_gecikme,f1_gecikme
+Logistic Regression (baseline),0.694,0.7239,0.846,0.541,0.66
+Decision Tree (tuned),0.6968,0.7335,0.8485,0.5442,0.6631
+Random Forest (onceki),0.6967,0.7325,0.8497,0.5429,0.6625
+Random Forest (tuned),0.6968,0.7329,0.8496,0.5432,0.6627
+XGBoost (onceki),0.6973,0.7305,0.8468,0.5468,0.6645
+XGBoost (tuned),0.697,0.7336,0.8482,0.5449,0.6635

@@ -1,0 +1,6 @@
+﻿version,model,roc_auc,note,accuracy,precision_gecikme,recall_gecikme,f1_gecikme
+v1,XGBoost,0.7336,5 ham ozellik,,,,
+v2,XGBoost,0.7482,tarih+dept+market+etkilesim,,,,
+v3 lean,Logistic Regression,0.7292,"etkilesim+v1, zayiflar budandi",0.6967,0.8502,0.5425,0.6624
+v3 lean,Random Forest,0.7332,"etkilesim+v1, zayiflar budandi",0.6967,0.8496,0.543,0.6626
+v3 lean,XGBoost,0.7336,"etkilesim+v1, zayiflar budandi",0.697,0.8482,0.5449,0.6635

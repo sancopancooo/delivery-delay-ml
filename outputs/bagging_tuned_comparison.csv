@@ -1,0 +1,4 @@
+﻿model,accuracy,roc_auc,precision_gecikme,recall_gecikme,f1_gecikme
+Bagging (onceki),0.7022,0.7563,0.8467,0.5578,0.6726
+Bagging (tuned),0.7032,0.7598,0.842,0.5646,0.676
+XGBoost v2,0.6994,0.7482,0.8486,0.5498,0.6673

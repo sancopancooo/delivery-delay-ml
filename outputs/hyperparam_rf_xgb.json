@@ -1,0 +1,40 @@
+{
+  "random_forest": {
+    "best_params": {
+      "n_estimators": 200,
+      "min_samples_split": 5,
+      "min_samples_leaf": 5,
+      "max_features": "sqrt",
+      "max_depth": 16
+    },
+    "best_cv_auc": 0.7323,
+    "test": {
+      "accuracy": 0.6968,
+      "roc_auc": 0.7329,
+      "precision_gecikme": 0.8496,
+      "recall_gecikme": 0.5432,
+      "f1_gecikme": 0.6627
+    },
+    "seconds": 206.5
+  },
+  "xgboost": {
+    "best_params": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "n_estimators": 150,
+      "min_child_weight": 3,
+      "max_depth": 8,
+      "learning_rate": 0.05,
+      "colsample_bytree": 1.0
+    },
+    "best_cv_auc": 0.7319,
+    "test": {
+      "accuracy": 0.697,
+      "roc_auc": 0.7336,
+      "precision_gecikme": 0.8482,
+      "recall_gecikme": 0.5449,
+      "f1_gecikme": 0.6635
+    },
+    "seconds": 22.3
+  }
+}

@@ -1,0 +1,103 @@
+﻿feature,importance,family,is_v2
+Days for shipment (scheduled),0.51922554,v1_ScheduledDays,False
+scheduled_x_first,0.2887289,v2_Interaction,True
+scheduled_x_second,0.06635832,v2_Interaction,True
+Category Name_Books ,0.0027159892,v1_Category,False
+Order Region_US Center ,0.002709507,v1_OrderRegion,False
+Order Region_South of  USA ,0.0026518744,v1_OrderRegion,False
+Order Region_Northern Europe,0.002490252,v1_OrderRegion,False
+Order Region_West of USA ,0.0023629868,v1_OrderRegion,False
+Order Region_North Africa,0.0023020043,v1_OrderRegion,False
+Market_USCA,0.0022986406,v2_Market,True
+Category Name_Computers,0.0022122643,v1_Category,False
+Order Region_Eastern Europe,0.0021107425,v1_OrderRegion,False
+Order Region_Southeast Asia,0.0021048812,v1_OrderRegion,False
+Order Region_Southern Europe,0.0019971454,v1_OrderRegion,False
+Order Region_West Asia,0.0019884892,v1_OrderRegion,False
+Category Name_Hunting & Shooting,0.0019647614,v1_Category,False
+Order Region_South America,0.0019609458,v1_OrderRegion,False
+Department Name_Technology,0.0018934793,v2_Department,True
+order_month,0.0018920661,v2_Date,True
+Customer Segment_Home Office,0.0018591126,v1_Segment,False
+order_weekday,0.00183543,v2_Date,True
+Category Name_Pet Supplies,0.0018197406,v1_Category,False
+Order Region_Central Asia,0.0018116431,v1_OrderRegion,False
+Order Region_East of USA,0.0018105559,v1_OrderRegion,False
+Market_Europe,0.0017834554,v2_Market,True
+Order Region_South Asia,0.001776006,v1_OrderRegion,False
+Order Region_Central America,0.0017723449,v1_OrderRegion,False
+Order Region_Central Africa,0.0017413043,v1_OrderRegion,False
+Order Region_Oceania,0.00172211,v1_OrderRegion,False
+Order Region_Western Europe,0.0017139916,v1_OrderRegion,False
+Order Region_East Africa,0.0017002776,v1_OrderRegion,False
+Category Name_Cleats,0.00167565,v1_Category,False
+Order Region_Caribbean,0.001675599,v1_OrderRegion,False
+Order Region_Canada,0.0016611496,v1_OrderRegion,False
+Category Name_Camping & Hiking,0.0016600471,v1_Category,False
+Customer Segment_Corporate,0.0016551325,v1_Segment,False
+Department Name_Outdoors,0.0016461201,v2_Department,True
+Category Name_Accessories,0.0016343915,v1_Category,False
+Market_Pacific Asia,0.0015716433,v2_Market,True
+Category Name_Cardio Equipment,0.0015378372,v1_Category,False
+Department Name_Footwear,0.0015234418,v2_Department,True
+Order Region_Eastern Asia,0.0015169778,v1_OrderRegion,False
+Customer Segment_Consumer,0.0015116533,v1_Segment,False
+Market_Africa,0.0015086379,v2_Market,True
+Category Name_Music,0.0014941072,v1_Category,False
+Category Name_Indoor/Outdoor Games,0.0014468112,v1_Category,False
+Category Name_Men's Footwear,0.0014371948,v1_Category,False
+Category Name_Women's Golf Clubs,0.0014298246,v1_Category,False
+Order Region_Southern Africa,0.0014127276,v1_OrderRegion,False
+Category Name_Trade-In,0.0013450162,v1_Category,False
+Category Name_Tennis & Racquet,0.0013433365,v1_Category,False
+Category Name_Kids' Golf Clubs,0.0013295122,v1_Category,False
+Category Name_Baseball & Softball,0.001279978,v1_Category,False
+Category Name_Crafts,0.0012635349,v1_Category,False
+Category Name_Shop By Sport,0.0012545891,v1_Category,False
+Category Name_Health and Beauty,0.0012464275,v1_Category,False
+Category Name_Consumer Electronics,0.0012450971,v1_Category,False
+Category Name_Fishing,0.0012295288,v1_Category,False
+Category Name_Women's Apparel,0.0012235913,v1_Category,False
+Market_LATAM,0.0012086121,v2_Market,True
+Department Name_Golf,0.0011951143,v2_Department,True
+Category Name_Water Sports,0.0011892961,v1_Category,False
+Department Name_Discs Shop,0.0011836627,v2_Department,True
+Category Name_Electronics,0.0011242018,v1_Category,False
+Department Name_Apparel,0.0011204286,v2_Department,True
+Category Name_Baby ,0.0011029614,v1_Category,False
+Category Name_Golf Balls,0.0010820379,v1_Category,False
+Category Name_Golf Shoes,0.0010521177,v1_Category,False
+Category Name_Hockey,0.0010243233,v1_Category,False
+Order Region_West Africa,0.0009869192,v1_OrderRegion,False
+Category Name_Toys,0.0009708525,v1_Category,False
+Category Name_Video Games,0.00096729904,v1_Category,False
+Category Name_Girls' Apparel,0.00096167455,v1_Category,False
+Category Name_DVDs,0.00093679194,v1_Category,False
+Category Name_Fitness Accessories,0.00088642875,v1_Category,False
+Department Name_Fan Shop,0.00087952806,v2_Department,True
+Category Name_Women's Clothing,0.0008794554,v1_Category,False
+Category Name_Boxing & MMA,0.0008640944,v1_Category,False
+Category Name_Children's Clothing,0.0008226985,v1_Category,False
+Category Name_CDs ,0.000820448,v1_Category,False
+Category Name_Cameras ,0.0008189525,v1_Category,False
+Category Name_Golf Apparel,0.000812984,v1_Category,False
+Category Name_Golf Gloves,0.00080916006,v1_Category,False
+Department Name_Fitness,0.0007221999,v2_Department,True
+Category Name_Lacrosse,0.0005922835,v1_Category,False
+Category Name_Soccer,0.00056744,v1_Category,False
+Category Name_Strength Training,0.0005168305,v1_Category,False
+Category Name_Men's Golf Clubs,0.00047924378,v1_Category,False
+Category Name_Garden,0.00037257982,v1_Category,False
+Category Name_Golf Bags & Carts,0.00033580157,v1_Category,False
+Category Name_Basketball,0.00033006739,v1_Category,False
+Category Name_As Seen on  TV!,0.00030914907,v1_Category,False
+is_weekend,0.0,v2_Date,True
+Shipping Mode_Standard Class,0.0,v1_ShippingMode,False
+Shipping Mode_First Class,0.0,v1_ShippingMode,False
+Shipping Mode_Same Day,0.0,v1_ShippingMode,False
+Shipping Mode_Second Class,0.0,v1_ShippingMode,False
+Category Name_Sporting Goods,0.0,v1_Category,False
+Category Name_Men's Clothing,0.0,v1_Category,False
+Department Name_Book Shop,0.0,v2_Department,True
+Department Name_Health and Beauty ,0.0,v2_Department,True
+Department Name_Pet Shop,0.0,v2_Department,True

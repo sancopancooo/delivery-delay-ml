@@ -1,0 +1,42 @@
+{
+  "bagging_v2": {
+    "roc_auc": 0.7598
+  },
+  "threshold_opt": {
+    "threshold": 0.32,
+    "f1": 0.7186,
+    "precision": 0.6186,
+    "recall": 0.8572,
+    "note": "Esik 0.5 yerine F1 maximize; AUC degismez, precision/recall dengesi degisir"
+  },
+  "lightgbm_v2": {
+    "roc_auc": 0.7524,
+    "status": "ok"
+  },
+  "catboost_v2": {
+    "roc_auc": 0.7546,
+    "status": "ok"
+  },
+  "voting_bag_rf_xgb": {
+    "roc_auc": 0.7562,
+    "members": [
+      "Bagging",
+      "RF",
+      "XGB"
+    ]
+  },
+  "bagging_time_split": {
+    "roc_auc": 0.7196,
+    "train_max_date": "2017-04-22 15:17:00",
+    "test_min_date": "2017-04-22 15:17:00",
+    "note": "Zaman bazli split; random splitten genelde daha zor / daha gercekci"
+  },
+  "bagging_v4_geo": {
+    "roc_auc": 0.8838,
+    "added": [
+      "cross_country",
+      "geo_dist_km"
+    ],
+    "note": "Ulke centroid sadece train'den; lat/lon ham olarak modele girmedi"
+  }
+}

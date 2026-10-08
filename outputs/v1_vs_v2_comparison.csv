@@ -1,0 +1,7 @@
+﻿version,model,roc_auc,accuracy,f1_gecikme,precision_gecikme,recall_gecikme
+v1,Logistic Regression,0.7239,0.694,0.66,,
+v1,Random Forest (tuned),0.7329,0.6968,0.6627,,
+v1,XGBoost (tuned),0.7336,0.697,0.6635,,
+v2,Logistic Regression,0.7293,0.6967,0.6624,0.8502,0.5425
+v2,Random Forest (tuned params),0.7443,0.698,0.6646,0.8498,0.5457
+v2,XGBoost (tuned params),0.7482,0.6994,0.6673,0.8486,0.5498

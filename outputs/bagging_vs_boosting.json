@@ -1,0 +1,78 @@
+{
+  "idea": {
+    "bagging": "Ayni tur zayif modelleri paralel egit, oyla (varyansi dusurur).",
+    "boosting": "Hatalari sirayla duzeltmeye calis (bias'i dusurur); genelde guclu."
+  },
+  "best": {
+    "accuracy": 0.7022,
+    "roc_auc": 0.7563,
+    "precision_gecikme": 0.8467,
+    "recall_gecikme": 0.5578,
+    "f1_gecikme": 0.6726,
+    "model": "Bagging (agac)",
+    "family": "bagging",
+    "seconds": 17.78
+  },
+  "results": [
+    {
+      "accuracy": 0.7022,
+      "roc_auc": 0.7563,
+      "precision_gecikme": 0.8467,
+      "recall_gecikme": 0.5578,
+      "f1_gecikme": 0.6726,
+      "model": "Bagging (agac)",
+      "family": "bagging",
+      "seconds": 17.78
+    },
+    {
+      "accuracy": 0.6994,
+      "roc_auc": 0.7482,
+      "precision_gecikme": 0.8486,
+      "recall_gecikme": 0.5498,
+      "f1_gecikme": 0.6673,
+      "model": "XGBoost",
+      "family": "boosting",
+      "seconds": 1.0
+    },
+    {
+      "accuracy": 0.698,
+      "roc_auc": 0.7443,
+      "precision_gecikme": 0.8498,
+      "recall_gecikme": 0.5457,
+      "f1_gecikme": 0.6646,
+      "model": "Random Forest",
+      "family": "bagging",
+      "seconds": 4.64
+    },
+    {
+      "accuracy": 0.698,
+      "roc_auc": 0.7401,
+      "precision_gecikme": 0.8496,
+      "recall_gecikme": 0.5457,
+      "f1_gecikme": 0.6646,
+      "model": "Extra Trees",
+      "family": "bagging",
+      "seconds": 7.24
+    },
+    {
+      "accuracy": 0.6973,
+      "roc_auc": 0.7364,
+      "precision_gecikme": 0.847,
+      "recall_gecikme": 0.5466,
+      "f1_gecikme": 0.6644,
+      "model": "Gradient Boosting",
+      "family": "boosting",
+      "seconds": 25.79
+    },
+    {
+      "accuracy": 0.6967,
+      "roc_auc": 0.7295,
+      "precision_gecikme": 0.8502,
+      "recall_gecikme": 0.5425,
+      "f1_gecikme": 0.6624,
+      "model": "AdaBoost",
+      "family": "boosting",
+      "seconds": 8.57
+    }
+  ]
+}

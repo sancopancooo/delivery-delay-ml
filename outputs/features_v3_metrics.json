@@ -1,0 +1,44 @@
+{
+  "kept": [
+    "Shipping Mode",
+    "Category Name",
+    "Order Region",
+    "Customer Segment",
+    "Days for shipment (scheduled)",
+    "scheduled_x_first",
+    "scheduled_x_second"
+  ],
+  "dropped_from_v2": [
+    "Department Name",
+    "Market",
+    "order_month",
+    "order_weekday",
+    "is_weekend"
+  ],
+  "results": {
+    "lr": {
+      "accuracy": 0.6967,
+      "roc_auc": 0.7292,
+      "precision_gecikme": 0.8502,
+      "recall_gecikme": 0.5425,
+      "f1_gecikme": 0.6624
+    },
+    "rf": {
+      "accuracy": 0.6967,
+      "roc_auc": 0.7332,
+      "precision_gecikme": 0.8496,
+      "recall_gecikme": 0.543,
+      "f1_gecikme": 0.6626
+    },
+    "xgb": {
+      "accuracy": 0.697,
+      "roc_auc": 0.7336,
+      "precision_gecikme": 0.8482,
+      "recall_gecikme": 0.5449,
+      "f1_gecikme": 0.6635
+    }
+  },
+  "v1_best_auc": 0.7336,
+  "v2_best_auc": 0.7482,
+  "v3_best_auc": 0.7336
+}

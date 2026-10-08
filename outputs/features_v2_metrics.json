@@ -1,0 +1,36 @@
+{
+  "new_features": [
+    "Department Name",
+    "Market",
+    "order_month",
+    "order_weekday",
+    "is_weekend",
+    "scheduled_x_first",
+    "scheduled_x_second"
+  ],
+  "v2_results": {
+    "logistic_regression": {
+      "accuracy": 0.6967,
+      "roc_auc": 0.7293,
+      "precision_gecikme": 0.8502,
+      "recall_gecikme": 0.5425,
+      "f1_gecikme": 0.6624
+    },
+    "random_forest": {
+      "accuracy": 0.698,
+      "roc_auc": 0.7443,
+      "precision_gecikme": 0.8498,
+      "recall_gecikme": 0.5457,
+      "f1_gecikme": 0.6646
+    },
+    "xgboost": {
+      "accuracy": 0.6994,
+      "roc_auc": 0.7482,
+      "precision_gecikme": 0.8486,
+      "recall_gecikme": 0.5498,
+      "f1_gecikme": 0.6673
+    }
+  },
+  "v1_best_auc": 0.7336,
+  "v2_best_auc": 0.7482
+}

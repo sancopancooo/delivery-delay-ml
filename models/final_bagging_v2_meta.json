@@ -1,0 +1,36 @@
+{
+  "model": "BaggingClassifier (DecisionTree)",
+  "feature_set": "v2",
+  "target": "Late_delivery_risk",
+  "test_roc_auc": 0.7598,
+  "train_size": 144415,
+  "test_size": 36104,
+  "params": {
+    "n_estimators": 100,
+    "max_samples": 1.0,
+    "max_features": 0.7,
+    "estimator__max_depth": null,
+    "estimator__min_samples_leaf": 10,
+    "estimator__min_samples_split": 5,
+    "estimator__class_weight": "balanced",
+    "random_state": 42
+  },
+  "raw_input_columns": [
+    "Shipping Mode",
+    "Days for shipment (scheduled)",
+    "Category Name",
+    "Order Region",
+    "Customer Segment",
+    "Department Name",
+    "Market",
+    "order_month",
+    "order_weekday",
+    "is_weekend",
+    "scheduled_x_first",
+    "scheduled_x_second"
+  ],
+  "files": {
+    "model": "final_bagging_v2.joblib",
+    "columns": "final_bagging_v2_columns.json"
+  }
+}
